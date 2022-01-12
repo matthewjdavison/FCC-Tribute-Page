@@ -1,0 +1,34 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background: hsl(214, 88%, 10%);
+    color:hsl(214, 88%, 90%);
+    overflow-x: hidden;
+}
+main {
+    display:flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+#title, #img-caption{
+    text-align: center;
+}
+#img-div {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 8rem;
+}
+#image {
+    align-self: center;
+    max-width: 40%;
+    margin-bottom: 1rem;
+
+}
+#tribute-link {
+    color: white;
+    align-self: flex-end;
+    text-decoration: underline;
+}
+#tribute-link a{
+    color: white;
+}
